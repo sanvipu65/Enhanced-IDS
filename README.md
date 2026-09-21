@@ -153,6 +153,27 @@ After EBBA
 
 EBBA is used as a **feature-selection algorithm**, not as an additional classifier.
 
+### Model Performance Comparison
+
+**NSL-KDD Dataset - EBBA vs Existing Models:**
+![NSL-KDD Model Comparison](./images/Model_Comparison_NSL-KDD.jpeg)
+*EBBA achieves competitive performance across Accuracy, Precision, Recall, and F1-Score metrics*
+
+**UNSW-NB15 Dataset - EBBA vs Existing Models:**
+![UNSW-NB15 Model Comparison](./images/Model_Comparison_UNSW_.jpeg)
+*Comprehensive evaluation across both benchmark datasets demonstrates EBBA effectiveness*
+
+## 📈 Evaluation Metrics
+
+Each model is rigorously evaluated using multiple performance indicators:
+
+- **Accuracy**: Overall correctness of predictions
+- **Precision**: True positive rate among positive predictions
+- **Recall**: Sensitivity to actual positive instances
+- **F1-Score**: Harmonic mean balancing precision and recall
+- **Confusion Matrix**: Detailed breakdown of prediction outcomes
+- **ROC-AUC**: Area under the Receiver Operating Characteristic curve
+
 ---
 
 # 🦇 EBBA Feature Selection
